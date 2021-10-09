@@ -41,10 +41,10 @@ body {
 /*========== 2.NAVBAR============*/
 /*==============================*/
 .navbar{
-	background-color: rgba(39, 36, 39, 0.8);
+	background-color: rgba(255,255,255, 0.2);
 	padding: 0px;
 	z-index: 3;
-
+	
 }
 .navbar-brand{
 	margin-left: 8px;
@@ -398,7 +398,7 @@ h5{
 }
 .Hproduct_top img{
 	width: 100%;
-	height: 220px;
+	height: 300px;
 }
 .Hproduct_content{
 	text-align: center;
@@ -607,10 +607,14 @@ button.cardadd:hover{
 	.top{
 		height: auto;
 		text-align: center;
-
+		margin:0 auto;
+		line-height: 0;
+	}
+	#phone,#top_head{
+		display: none;
 	}
 	.slider1{
-    margin-top: 40px;
+   	 
 	}
 	.search{
 		margin-left: 8px;
@@ -631,9 +635,10 @@ button.cardadd:hover{
 	}
 	.Hproduct_card{
 		position: relative;
-		width: 70%;
+		width: 92%;
+		height: 100%;
 		margin: 0 auto;
-		margin-bottom: 5px;
+		margin-bottom: 25px;
 	}
 	.home_product h2{
 		text-align: center;
@@ -647,11 +652,9 @@ button.cardadd:hover{
 	.home_product h2:after{
 		display: none;
 	}
-	.slider1{
-		margin-top: 70px;
-	}
+
 	.navbar{
-		padding: 15px;
+		padding: 10px;
 	}
 	.dropdown-menu{
 		display: none;
@@ -846,3 +849,11 @@ label.form-check-label4::before{
 .scrollTop_button:hover{
 	background-color: rgba(255,255,255,.2);
 }
+/*========== 17.scrollTop_ChangeTop ============*/
+/*==============================*/
+.changeTop{
+	background-color: rgb(39, 36, 39);
+	padding: 10px;
+	z-index: 3;
+}
+
