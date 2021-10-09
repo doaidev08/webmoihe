@@ -1,17 +1,16 @@
+// Scroll Top hidden
 $(window).scroll(function() {
-    if ($(this).scrollTop()>10)
+   if ($(this).scrollTop()>10)
      {
-        $('#top').hide();
-     }
-    else
-     {
-      $('#top').show();
+         $('#top').hide();
+         $(".scrollTop_button").show();
+     }else{
+         $('#top').show();
+         $(".scrollTop_button").hide();
      }
  });
-// $('#target1').on('shown.bs.collapse', function () {
-//    $('#target1').hide();
-// });
 
-// $('#target1').on('hidden.bs.collapse', function () {
-//    $('#target1').show();
-// });
+// button scroll to top
+$(".scrollTop_button").click(function(){
+   window.scrollTo({ top: 0, behavior: 'smooth'});
+});
