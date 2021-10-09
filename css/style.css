@@ -668,7 +668,9 @@ button.cardadd:hover{
 	background-color: red;
 	
 }
-
+.sidebar{
+	margin-bottom: 10px;
+}
 .shop{
 	width: 95%;
 	margin: 0 auto;
